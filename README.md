@@ -7,4 +7,6 @@ using the teachnologies I was teaching myself at the time (HTML/CSS).
 
 
 
-## Teachnologies used: HTML and CSS
+## Teachnologies used:
+- HTML
+- CSS
