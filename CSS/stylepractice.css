@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(/IMG/Practice_About.jpg);
+  background-image: url(./IMG/Practice_About.jpg);
   background-color: #ffa500;
 }
 
@@ -81,7 +81,7 @@ body {
   .text-2 {
     padding: 15px 10px 35px 10px;
     background-color: #ffa500;
-    background-image: url(/IMG/try7.jpg);
+    background-image: url(./IMG/try7.jpg);
   }
 
   .text.p {
