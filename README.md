@@ -7,7 +7,7 @@ using the teachnologies I was teaching myself at the time (HTML/CSS).
 
 ![Image of Nazir's Art Portfolio landing page](./IMG/Art_Portfolio_Project.png)
 
-![Image of Nazir's Art Portfolio About page](<Art Portfolio - Google Chrome 9_26_2023 12_59_53 AM.png>)
+![Image of Nazir's Art Portfolio About page](./IMG/Art_Portfolio_Project_Aboutpage.png)
 
 ## Teachnologies used:
 - HTML
