@@ -6,7 +6,7 @@
   
   body {
     background-color: #ffa500;
-    background-image: url(./IMG/Finalbackground.jpg)
+    background-image: url(../IMG/Finalbackground.jpg)
   }
   
   .topnav {
@@ -73,7 +73,7 @@
     .h-3 {
         padding: 35px 0 35px 0;
         background-color: #ffa500;
-        background-image: url(./IMG/try2.jfif);
+        background-image: url(../IMG/try2.jfif);
         border-radius: 30px;
         border: solid;
         margin: 20px 300px 0 300px;
