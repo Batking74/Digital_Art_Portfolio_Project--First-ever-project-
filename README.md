@@ -5,8 +5,15 @@ My teacher wanted everyone to create a power point displaying our art projects t
 Instead of using a power point I asked her if I could code my art portfolio so I could build something
 using the teachnologies I was teaching myself at the time (HTML/CSS).
 
+![Image of Nazir's Art Portfolio landing page](./IMG/Art_Portfolio_Project.png)
 
+![Image of Nazir's Art Portfolio About page](<Art Portfolio - Google Chrome 9_26_2023 12_59_53 AM.png>)
 
 ## Teachnologies used:
 - HTML
 - CSS
+
+
+Deployed Site: https://batking74.github.io/Digital_Art_Portfolio_Project--First-ever-project-/
+
+GitHub Repo: https://github.com/Batking74/Digital_Art_Portfolio_Project--First-ever-project-
