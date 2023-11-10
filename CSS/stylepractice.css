@@ -5,97 +5,131 @@
 }
 
 body {
-  background-image: url(../IMG/Practice_About.jpg);
+  background-image: url(../IMG/Practice_About.wetry7.webp);
   background-color: #ffa500;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
+/* Header */
+header h1 {
   text-align: center;
-  text-decoration: none;
-  padding: 14px 16px;
-  color: #f2f2f2;
-  font-size: 17px;
+  font-size: 50px;
+  margin: 80px 40px 40px 40px;
+  color: #ffa500;
+  background-color: #000;
+  border-radius: 100px;
+  padding: 10px 0 10px 0;
 }
 
-.topnav a:hover {
-  background-color: #ffff;
+h3 {
+  margin: 0 0 20px 0;
+}
+
+.text-background {
+  margin: 0 0 50px 0;
   color: #000;
+  text-align: center;
+  border: solid #000 4px;
+  border-left: none;
+  border-right: none;
+  padding: 15px 10px 35px 10px;
+  background-image: url(../IMG/try7.webp);
 }
 
-.topnav a.active {
-  background: #ff8c00;
-  color: #ffff;
-}
-
-.form {
-  float: right;
-  margin: 5px 10px 0 0;
-  }
-
-  .email {
-  padding: 4px;
-  }
-
-  .password {
-  padding: 4px;
-  }
-
-  .btn {
-  padding: 2px;
-  }
-
-  .heading1 {
-    text-align: center;
-    font-size: 50px;
-    margin: 40px;
-    color: #ffa500;
-    background-color: #000;
-    border-radius: 100px;
-    padding: 10px 0 10px 0;
-  }
-
-  .flexbox-container {
+/* Image Styles */
+.img-container {
   display: flex;
   justify-content: space-around;
-  }
+}
 
-  img {
+.img-container img {
   border: solid 5px;
+  width: 22vw;
+  height: 300px;
+  border-radius: 50px;
+}
+
+/* Responsive Web Design */
+@media screen and (max-width: 1255px) {
+  /* Image Styles */
+  .img-container {
+    display: grid;
+    grid-template: repeat(2, 30vw) / repeat(2, 35vw);
   }
 
-  .text-background {
-  margin: 0 0 50px 0;
-  background-color: #000;
-  color: #000;
-  text-align: center;
-  border: solid;
-  padding: 3px;
+  .img-container img {
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 1077px) {
+  /* Image Styles */
+  .img-container {
+    grid-template: repeat(2, 35vw) / repeat(2, 35vw);
   }
 
-  .text-2 {
-    padding: 15px 10px 35px 10px;
-    background-color: #ffa500;
-    background-image: url(../IMG/try7.jpg);
+  .img-container img {
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  /* Image Styles */
+  .img-container {
+    grid-template: repeat(2, 50vw) / repeat(2, 40vw);
   }
 
-  .text.p {
-  padding: 65px;
+  .img-container img {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 613px) {
+  /* Image Styles */
+  .img-container {
+    grid-template: repeat(4, 100vw) / repeat(1, 65vw);
+  }
+
+  .img-container img {
+    width: 70vw;
+    height: 400px;
   }
 
   footer {
-  background-color: #333;
-  text-align: center;
-  color: #ffff;
-  padding: 15px 20px;
-  margin: 200px 0 0 0;
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /* Image Styles */
+  .img-container {
+    grid-template: repeat(4, 100vw) / repeat(1, 70vw);
   }
 
-  .h-3 {
-    padding: 0 0 20px 0;
+  .img-container img {
+    width: 75vw;
+    height: 350px;
   }
+}
+
+@media screen and (max-width: 380px) {
+  /* Image Styles */
+  .img-container {
+    grid-template: repeat(4, 150vw) / repeat(1, 85vw);
+  }
+
+  .img-container img {
+    width: 85vw;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  /* Image Styles */
+  .img-container {
+    grid-template: repeat(4, 170vw) / repeat(1, 90vw);
+  }
+
+  .img-container img {
+    width: 90vw;
+  }
+}
