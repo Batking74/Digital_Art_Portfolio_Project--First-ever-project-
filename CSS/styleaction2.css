@@ -1,28 +1,102 @@
-body {
-    background-image: url(../IMG/Action2subbackground.png);
+* {
+    margin: 0;
+    padding: 0;
 }
 
-div {
-    background-color: #000;
+body {
+    background: linear-gradient(90deg, black, red, black);
+}
+
+main {
+    position: relative;
+    left: 26vw;
+    top: 130px;
+    background: #000;
     text-align: center;
-    margin: 200px 370px 0 370px;
-    padding: 50px;
+    width: 35vw;
+    padding: 90px;
     font-size: 30px;
     color: #f2f2f2;
 }
 
-.sub {
+p {
+    margin-top: 20px;
     font-size: 20px;
 }
 
-.p {
+a {
     font-size: 15px;
-    text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
-    /* for mobile phones */
-    [class*="col-"] {
-        width: 100%;
+@media screen and (max-width: 1036px) {
+    main {
+        left: 24vw;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    
+    a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    main {
+        left: 13vw;
+        width: 40%;
+    }
+    
+    h1 {
+        font-size: 35px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 528px) {
+    main {
+        left: 10vw;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+    
+    a {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 379px) {
+    main {
+        left: 5vw;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+    
+    a {
+        font-size: 10px;
     }
 }
