@@ -1,12 +1,9 @@
 # Digital Art Portfolio Project (First ever project)
 
 ### Description
-This Project is a real art portfolio final project that I had to complete in 10th grade for an art class.
-My teacher wanted everyone to create a power point displaying our art projects that we worked on that year (2021).
-Instead of using a power point I asked her if I could code my art portfolio so I could build something
-using the teachnologies I was teaching myself at the time (HTML/CSS).
+This project serves as my final art portfolio for a 10th-grade class, required to showcase art projects completed in 2021. Instead of opting for a traditional PowerPoint, I proposed coding my portfolio using HTML/CSS. This decision allowed me to apply and showcase the technologies I was teaching myself at the time.
 
-![Image of Nazir's Art Portfolio landing page](./IMG/Art_Portfolio_Project.png)
+![Image of Nazir's Art Portfolio landing page](./IMG/Art_Portfolio_Project.webp)
 
 ## Teachnologies used:
 - HTML
