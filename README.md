@@ -9,7 +9,6 @@ This project serves as my final art portfolio for a 10th-grade class, required t
 - HTML
 - CSS
 
-
 Deployed Site: https://batking74.github.io/Digital_Art_Portfolio_Project--First-ever-project-/
 
 GitHub Repo: https://github.com/Batking74/Digital_Art_Portfolio_Project--First-ever-project-
